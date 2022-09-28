@@ -1,0 +1,25 @@
+.list-user {
+    display: flex;
+    justify-content: space-between;
+    width: 49%;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #333;
+    text-align: left;
+    padding: 12px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.list-user:hover {
+    background-color: pink;
+}
+
+span {
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+span:hover {
+    color: red;
+    cursor: pointer;
+}

@@ -1,0 +1,24 @@
+form {
+    display: flex;
+}
+
+input {
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.add-user {
+    background-color: #0066ff;
+    border: none;
+    padding: 12px;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+.add-user:hover {
+    background-color: #003399;
+}
+
